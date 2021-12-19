@@ -1,0 +1,11 @@
+mongo_conf:
+  default:
+    addr: "mongodb://127.0.0.1:27017"
+    pool_max_size: 20
+    pool_min_size: 10
+    max_conn_idle_time: 60
+  test:
+    addr: "mongodb://127.0.0.1:27017"
+    pool_max_size: 20
+    pool_min_size: 10
+    max_conn_idle_time: 60
